@@ -1,0 +1,28 @@
+{
+  "name": "arcadian-rush",
+  "private": true,
+  "scripts": {
+    "dev": "tsx --conditions=react-server scripts/dev-server.ts",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vercel/functions": "3.11.2",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/ws": "^8.18.2",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "5.1.0"
+  }
+}
